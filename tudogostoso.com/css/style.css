@@ -1,0 +1,46 @@
+#logo{
+    margin-top: 3.1px;
+    margin-left: 285px;
+    height:48.9px;
+}
+#divBusca{
+    background-color:#ffffff;
+    border:solid 2px #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 25px 0 0 25px;
+    box-shadow: 0 0 10px 0 rgb(254 106 41);
+    padding: 0 20px;
+    width: 275px;
+    
+  }
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+  
+#btnBusca{
+    border:none;
+    float:left;
+    height:34px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#ee6b00;
+}
+  
+#divBusca img{
+    float:left;
+    
+}
+header {
+    display: flex; /* Organiza o conteúdo horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    gap: 20px; /* Espaço entre o logo e a barra de busca */
+    padding: 10px; /* Ajuste de espaçamento interno */
+}
